@@ -1,0 +1,9 @@
+// GRID
+$grid-width: 114rem;
+
+.row {
+    max-width: $grid-width;
+    margin: 0 auto;
+    margin-bottom: 2rem;               
+    display: flex;
+}

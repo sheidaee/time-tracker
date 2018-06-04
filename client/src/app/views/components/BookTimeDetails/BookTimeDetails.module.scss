@@ -1,0 +1,35 @@
+.ViewBtn {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.BookTime {
+  font-size: 1.5rem;
+}
+
+.bookTimeCaption {
+  margin-bottom: .2rem;
+}
+
+.clockInCaption,
+.clockOutCaption,
+.durationCaption,
+.descriptionCaption, {
+  margin-bottom: 1.4rem;
+  font-weight: bold;  
+}
+
+.descriptionData {
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+}
+
+.row,
+.singleRow {
+  margin-bottom: 1.4rem;
+}

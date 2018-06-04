@@ -1,0 +1,38 @@
+{
+  "name": "time-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^2.3.1",
+    "@blueprintjs/datetime": "^2.0.3",
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "match-sorter": "^2.2.3",
+    "moment": "^2.22.1",
+    "moment-timer": "^1.2.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-table": "^6.8.2",
+    "react-transition-group": "^2.3.1",
+    "redux": "^4.0.0",
+    "redux-form": "^7.3.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "@horacehylee/react-app-rewire-css-modules": "^1.0.1",
+    "flow-bin": "^0.71.0",
+    "node-sass": "^4.9.0",
+    "react-app-rewired": "^1.5.2",
+    "sass-loader": "^7.0.1"
+  }
+}

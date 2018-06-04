@@ -1,0 +1,28 @@
+.BookTime {  
+  line-height: 1;
+}
+
+.bookTimeCaption {
+  margin-bottom: .2rem;
+}
+
+.clockOutCaption,
+.descriptionCaption,
+.row {
+  margin-bottom: 2.4rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.descriptionData,
+.descriptionData textarea {
+  width: 100%;
+}
+
+.descriptionData textarea {
+  min-height: 13rem;
+}

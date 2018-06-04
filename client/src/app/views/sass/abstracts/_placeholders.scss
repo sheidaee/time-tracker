@@ -1,0 +1,9 @@
+%header-typography {
+    text-transform: uppercase;    
+}
+
+%custom-scrollbar {
+    border-radius: 1rem;
+    -webkit-box-shadow: inset 0 0 6px rgba($color-black, .3);    
+    box-shadow: inset 0 0 6px rgba($color-black, .3);
+}

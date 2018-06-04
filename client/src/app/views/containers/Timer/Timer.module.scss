@@ -1,0 +1,30 @@
+.Timer {
+  padding: 2rem;
+  text-align: center;
+  height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../../../../assets/images/back.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;  
+  color: #fff;
+  line-height: 1.7;
+}
+
+.date {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 300; 
+}
+
+.timerDuration {
+  font-weight: 300;
+  font-size: 4.6rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  letter-spacing: .2rem;
+}
+
+.btn {
+  margin: 0 2rem;
+}

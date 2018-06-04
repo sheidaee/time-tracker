@@ -1,0 +1,40 @@
+.EditBtn {
+  cursor: pointer;
+  margin-left: .8rem;
+}
+.BookTime {   
+}
+
+.bookTimeCaption {
+  margin-bottom: .2rem;
+}
+
+.descriptionCaption,
+.row {
+  margin-bottom: 2.4rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.descriptionData,
+.descriptionData textarea {
+  width: 100%;
+}
+
+.descriptionData textarea {
+  min-height: 13rem;
+}
+
+.bookTimeData {
+  padding-bottom: 1rem;
+}
+
+.clockOutData {
+  padding-top: 2.8rem;
+  padding-bottom: 1rem;
+  
+}
