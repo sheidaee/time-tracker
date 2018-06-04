@@ -32,10 +32,4 @@ class DateInputField extends React.Component {
   }
 }
 
-// export const FORMATS = {
-//     formatDate: date => date.toLocaleString(),
-//     placeholder: "JS Date",
-//     parseDate: str => new Date(str)
-// };
-
 export default DateInputField;

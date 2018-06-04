@@ -93,21 +93,6 @@ class EditBookTime extends Component {
       description: this.props.data.description
     }); 
   }
-  
-  componentWillReceiveProps(nextProps) {     
-    /* initialize form for the first time */
-     // || !this.props.clockIn
-    // if (this.props.data.clock_in !== nextProps.data.clock_in) {
-    //   this.props.initialize({
-    //     clockIn: new Date(
-    //       `${nextProps.data.clock_in} ${nextProps.data.duration}`
-    //     ),
-    //     clockOut: new Date(nextProps.data.clock_out),
-    //     description: nextProps.data.description
-    //   });        
-    //   //this.props.onStopTime(); 
-    // }      
-  }
 
   /**
    * Sending book time info to the redux to save them on the server side

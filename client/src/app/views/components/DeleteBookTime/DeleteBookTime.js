@@ -32,7 +32,6 @@ class DeleteBookTime extends Component {
     this.props.dialogCloseHandler();
   }
   render() {
-    const { data } = this.props;
     return (
       <div className={Styles.BookTime}>
         <div className={Styles.row}>

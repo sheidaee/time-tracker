@@ -1,4 +1,4 @@
-import TimeTicker from '../views/containers/TimeTicker';
+import TimeTicker from '../views/components/TimeTicker';
 
 const routes = [
     {

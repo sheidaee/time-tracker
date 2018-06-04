@@ -20,9 +20,7 @@ const fetchList = () => dispatch => {
         dispatch(fetchListComplete(response.data.bookTimeData));
     })
     .catch(error => {
-        console.log('error');
-        
-        //dispatch(fetchListFailed());
+        console.log('error');        
     });
 };
 
@@ -36,26 +34,22 @@ const bookTime = (clock_in, clock_out, description ) => dispatch => {
           dispatch(bookTimeComplete({ ...response.data }));
         })
         .catch(error => {
-          // dispatch(addFailed(error))
           console.log(error);
         }));
 };
 
 const editBookTime = (id, clock_in, clock_out, description) => dispatch => {
-    //dispatch(addInit())
     return Promise.resolve(axios
         .post(`/put_book_time?book_time_id=${id}&clock_in=${clock_in}&clock_out=${clock_out}&description=${description}`)
         .then(response => {
             dispatch(fetchListComplete(response.data.bookTimeData));          
         })
         .catch(error => {
-          // dispatch(addFailed(error))
           console.log(error);
         }));
 };
 
 const deleteBookTime = book_time_id => dispatch => {
-  //dispatch(addInit())
   return Promise.resolve(
     axios
         .delete(`/delete_book_time?book_time_id=${book_time_id}`)
@@ -63,7 +57,6 @@ const deleteBookTime = book_time_id => dispatch => {
             dispatch(fetchListComplete(response.data.bookTimeData));            
         })
         .catch(error => {
-            // dispatch(addFailed(error))
             console.log(error);
         })
   );

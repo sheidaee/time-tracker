@@ -14,7 +14,6 @@ import { classNames } from "../../../utilities";
 
 import Styles from './BookTime.module.scss';
 
-/* book time dialog props */
 const dialogProps = {
   btn: {
     type: "button",
