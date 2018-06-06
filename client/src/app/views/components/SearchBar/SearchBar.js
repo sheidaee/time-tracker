@@ -9,7 +9,7 @@ import { timeOperations } from "../../../state/ducks/time";
 
 import Styles from './SearchBar.module.scss';
 
-class SearchBar extends Component {
+export class SearchBar extends Component {
 
   state = {
     clockIn: null,

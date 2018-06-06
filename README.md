@@ -28,7 +28,7 @@ $ composer install
 Then you need to install client side requirements
 
 ```
-npm install
+$ npm install
 ```
 
 To add some dummy data to the project please create new database called timer_ticker and import timer_ticker.sql through phpMyAdmin
@@ -47,7 +47,7 @@ $ php bin/console server:run
 then in the client folder you need to run the below command
 
 ```
-npm start
+$ npm start
 ```
 
 ### Built With
@@ -56,6 +56,7 @@ npm start
 * [Blueprint](https://reactjs.org/) - A React-based UI toolkit to make UI more beautiful
 * [Redux](https://redux.js.org/) - A state management for JavaScript Appps
 * [Redux Form](https://reactjs.org/) - Managing the form state in Redux
+* [Moment.js](https://momentjs.com/docs/) - A better functionality at working with dates
 * [Lodash](https://lodash.com/) - helps you to write code in an Functional programming / immutability approach
 
 ## Authors

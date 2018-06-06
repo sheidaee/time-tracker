@@ -25,7 +25,6 @@ const fetchList = () => dispatch => {
 };
 
 const bookTime = (clock_in, clock_out, description ) => dispatch => {
-    //dispatch(addInit())
     return Promise.resolve(axios
         .post(
         `/post_book_time?clock_in=${clock_in}&clock_out=${clock_out}&description=${description}`          

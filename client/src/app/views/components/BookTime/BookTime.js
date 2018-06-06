@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
-import * as moment from "moment";
+import moment from "moment";
 import { Field, reduxForm, formValueSelector } from "redux-form";
 import { Button, Intent } from "@blueprintjs/core";
 
@@ -80,7 +80,7 @@ const RenderTextArea = createRenderer((input, label, touched, error) => (
  * @class BookTime
  * @extends {Component}
  */
-class BookTime extends Component {    
+export class BookTime extends Component {    
   componentWillReceiveProps(nextProps) {   
     /* initialize form for the first time    */
     if (this.props.time !== nextProps.time || !this.props.clockIn) {

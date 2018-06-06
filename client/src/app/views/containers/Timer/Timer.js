@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import * as moment from "moment";
+import moment from "moment";
 import "moment-timer";
 import { Button } from "@blueprintjs/core";
 import { connect } from "react-redux";
@@ -15,7 +15,7 @@ import { timeOperations } from "../../../state/ducks/time";
  * @class Timer
  * @extends {Component}
  */
-class Timer extends Component {
+export class Timer extends Component {
   state = {
     started: true
   };

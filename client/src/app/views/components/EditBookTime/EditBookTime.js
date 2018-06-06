@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
-import * as moment from "moment";
+import moment from "moment";
 import { Field, reduxForm, formValueSelector } from "redux-form";
 import { Button, Intent } from "@blueprintjs/core";
 

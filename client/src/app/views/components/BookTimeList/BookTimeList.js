@@ -37,7 +37,7 @@ const columns = [
   }
 ];
 
-class BookTimeList extends Component {
+export class BookTimeList extends Component {
   static defaultProps = {
     bookTimeRecords: null,
     loading: false

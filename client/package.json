@@ -30,9 +30,12 @@
   },
   "devDependencies": {
     "@horacehylee/react-app-rewire-css-modules": "^1.0.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "flow-bin": "^0.71.0",
     "node-sass": "^4.9.0",
     "react-app-rewired": "^1.5.2",
+    "react-test-renderer": "^16.4.0",
     "sass-loader": "^7.0.1"
   }
 }
